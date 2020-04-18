@@ -1,0 +1,24 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "description": "learn ts-learning",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config  ./build/webpack.config.js"
+  },
+  "keywords": [
+    "typescript",
+    "source_code",
+    "jack006"
+  ],
+  "author": "jack006.com",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^7.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
